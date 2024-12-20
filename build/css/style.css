@@ -1,0 +1,90 @@
+@media (max-width: 600px) {
+  /* home section */
+  .home h1{
+    font-size: 30px;
+  }
+
+  .home p{
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  .home {
+    top: 180px;
+    left: 20px;
+  }
+  .outter-home {
+    height: 100vh;
+  }
+  .btn {
+    font-size: 15px;
+    margin-top: 150px;
+    margin-left: 20px;
+  }
+  .btn-1{
+    margin-right: 26px;
+  }
+
+  /* about section */
+  .about{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .about-1{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* service section */
+  
+  /* .cyber {
+    left: 14px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: #fff;
+    margin: 0;
+    width: 370px;
+
+  } */
+
+  .cyber-services {
+    margin-bottom: 50px;
+  }
+
+  .services{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .services-1 {
+    width: 100%;
+  }
+
+  /* photography section */
+
+  .photography{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .outter-photography{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .photography-1{
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    padding-left: 20px
+  }
+  .calendar{
+    padding-right: 30px;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+  
+}
